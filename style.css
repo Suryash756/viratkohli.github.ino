@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(red,blue);
+    text-align: center;
+    border: solid;
+    border-color: purple;
+}
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: 5px auto;
+}
+#welcome{
+    border:solid;
+    background: linear-gradient(orange,purple);
+    margin-top: 50px;
+    border-color: blue;
+    margin-bottom: 20px;
+    margin: 50px;
+}
+#kholi{ 
+width:300px;
+height: 300px;
+border-radius: 50%;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+h1{
+    font-size: 40px;
+}
+#para{
+    border:solid;
+    background: linear-gradient(red,purple);
+    margin-top: 50px;
+    border-color: blue;
+    margin-bottom: 20px;
+    margin: 50px;
+}
+
+.menu{
+    background-color: aqua;
+    list-style: none;
+    position: fixed;
+    margin:5px auto;
+    top: 0;
+    padding-left: 500px;
+    cursor: pointer;
+    font-family: fantasy;
+    z-index: 99999;
+    opacity: 0.8;
+    width: 100%;
+}
+.menu:hover{
+    opacity: 1;
+}
+
+.links{
+    float: left;
+    padding: 7px;
+    font-size: 30px
+}
+ 
+.links:hover{
+    color: red;
+}
